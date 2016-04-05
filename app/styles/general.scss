@@ -4,6 +4,7 @@ $my-black: #323232;
 body {
 	color: $my-black;
 	font-family: 'Lato', sans-serif;
+	min-width: 300px;
 }
 
 .highlight {
