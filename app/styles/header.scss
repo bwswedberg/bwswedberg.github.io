@@ -1,0 +1,98 @@
+/* Mobile first queries */
+#header {
+	height: 200px;
+	max-height: 90vh;
+	background-image: url('../img/mtview.jpg');
+	background-size: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#header h1 {
+	background-color: $my-black;
+	overflow:hidden;
+	display:inline-block;
+
+	font-family: inherit;
+	font-weight: 600;
+	font-style: inherit;
+	font-size: 4.5rem;
+	line-height: 5.0625rem;
+	margin-top: 1.6875rem;
+	margin-bottom: 1.6875rem;
+	margin-left: 1rem;
+}
+
+.clip-text {
+	color: $my-black;
+	background-image: url('../img/mtview.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    display:block;
+	padding-left: .2em;
+	padding-right: .2em;
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {
+	#header {
+		height: 300px;
+		max-height: 90vh;
+	}
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	#header {
+		height: 412px;
+		max-height: 90vh;
+	}
+
+	#header h1 {
+		font-family: inherit;
+		font-weight: 600;
+		font-style: inherit;
+		font-size: 7rem;
+		line-height: 7.125rem;
+		margin-top: 1.6875rem;
+		margin-bottom: 0rem;
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+	#header {
+		height: 562px;
+		max-height: 90vh;
+	}
+
+	#header h1 {
+		font-family: inherit;
+		font-weight: 600;
+		font-style: inherit;
+		font-size: 9rem;
+		line-height: 10.125rem;
+		margin-top: 1.6875rem;
+		margin-bottom: 0rem;
+	}
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
+	#header {
+		height: 750px;
+		max-height: 90vh;
+	}
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {
+	#header {
+		height: 900px;
+		max-height: 90vh;
+	}
+}

@@ -1,0 +1,25 @@
+.emp-title {
+	font-weight: 600;
+	letter-spacing: .2rem;
+	float: left;
+}
+
+.emp-date {
+	float: left;
+	clear: both;
+	letter-spacing: .2rem;
+}
+
+.emp-desc {
+	float: left;
+	clear: both;
+}
+
+/* Larger than tablet */
+@media (min-width: 1000px) {
+	.emp-date {
+		padding-right: 0rem;
+		float: right;
+		clear: initial;
+	}
+}

@@ -1,0 +1,60 @@
+#navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: none;
+	z-index: 3;
+	text-align: right;
+}
+
+#navbar-toggle,
+#navbar-menu-options {
+	display: inline-block;
+	padding: .5rem;
+	background-color: #fff;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: .5rem;
+	box-shadow: .1rem .15rem .1rem rgba(0, 0, 0, 0.1), -.1rem .15rem .1rem rgba(0, 0, 0, 0.1);
+}
+
+#navbar-toggle:hover,
+#navbar-menu-options:hover {
+	box-shadow: .1rem .15rem .3rem rgba(0, 0, 0, 0.1), -.1rem .15rem .3rem rgba(0, 0, 0, 0.1);
+}
+
+#navbar-toggle:active,
+#navbar-menu-options:active {
+	box-shadow: .1rem .15rem .1rem rgba(0, 0, 0, 0.1), -.1rem .15rem .1rem rgba(0, 0, 0, 0.1);
+}
+
+#navbar-toggle {
+	padding-bottom: .7rem;
+}
+
+#navbar-menu-icon,
+#navbar-menu-options * {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: $my-black;
+	text-decoration: none;
+}
+
+#navbar-menu-icon:active {
+	color: #FFFFFF;
+}
+
+#navbar-menu-options li {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-right: .5rem;
+}
+
+#navbar-menu-options li a {
+	color: $my-black;
+	text-decoration: none;
+}
+
+#navbar-menu-options li.active {
+	border-bottom: solid $my-black .2rem;
+}

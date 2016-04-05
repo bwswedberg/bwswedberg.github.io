@@ -1,0 +1,113 @@
+$highlight: #FFC277;/*#FAAD4D;/*#f0a345; /* #ed9121 carrot orange or #9d5751;*/
+$my-black: #323232;
+
+body {
+	color: $my-black;
+	font-family: 'Lato', sans-serif;
+}
+
+.highlight {
+	background-color: $highlight;
+	padding-left: .2em;
+	padding-right: .2em;
+}
+
+.section {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+.section-title {
+	background-color: $my-black;
+	padding-left: .2em;
+	padding-right: .2em;
+	overflow: hidden;
+	display: inline-block;
+}
+
+/* ===========================
+About Section
+=========================== */
+
+$about-background: lighten(#000, 33%);
+
+#about-wrapper {
+	background-color: $about-background;
+	border-left: 3px solid $highlight;
+	border-right: 3px solid $highlight;
+}
+
+/* ===========================
+Experience Section
+=========================== */
+
+$experience-background: lighten(#000, 43%);
+
+#experience-wrapper {
+	border-top:	5px solid darken($experience-background, 3%);
+	background-color: $experience-background;
+}
+
+#experience-wrapper .section-title {
+	color: $experience-background;
+}
+
+/* ===========================
+Selected Work Section
+=========================== */
+
+$selected-work-background: lighten(#000, 53%);
+
+#selected-work-wrapper {
+	border-top:	5px solid darken($selected-work-background, 3%);
+	background-color: $selected-work-background;
+}
+
+#selected-work-wrapper .section-title {
+	color: $selected-work-background;
+}
+
+/* ===========================
+Contact Section
+=========================== */
+
+$contact-background: lighten(#000, 63%);
+
+#contact-wrapper {
+	border-top:	5px solid darken($contact-background, 3%);
+	background-color: $contact-background;
+}
+
+#contact {
+	padding-bottom: 3rem;
+}
+
+.contact-columns > .columns {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+.contact-columns * {
+	text-align: center;
+}
+
+.contact-columns a {
+	color: $highlight;
+	padding: 1rem;
+}
+
+.contact-columns i {
+	font-size: 4rem;
+}
+
+.contact-columns i.fa-envelope {
+	font-size: 4.35rem;
+}
+
+.contact-columns a:hover {
+	color: lighten($highlight, 10%);
+}
+
+.contact-columns a:active {
+	color: darken($highlight, 20%);
+}

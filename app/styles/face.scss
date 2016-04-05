@@ -1,0 +1,35 @@
+
+/* Mobile first queries */
+#face {
+	/*content: url('../img/face.jpg');*/
+	display:block;
+	margin: 0 auto;
+	width: 50%;
+	max-width: 160px;
+	height: auto;
+	border-radius: 50%;
+	-webkit-filter: grayscale(25%);
+	-moz-filter: grayscale(25%);
+	filter: grayscale(25%);
+}
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+	#face {
+		width: 100%;
+
+	}
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}
