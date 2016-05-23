@@ -1,5 +1,5 @@
 # about brian
-This is a static site about me.
+This is [a static site about me](bwswedberg.github.io).
 
 ## thanks
 Thanks to
